@@ -1,5 +1,9 @@
 # Smart Irrigation Digital Twin
 
+![Smart Irrigation Digital Twin Dashboard](docs/images/dashboard_overview.png)
+
+*Interactive digital twin dashboard for soil-moisture monitoring, one-hour forecasting, uncertainty estimation and irrigation decision support.*
+
 This project investigates how a digital twin can combine soil-moisture measurements, environmental data, physical reasoning and machine learning to support irrigation monitoring and decision-making.
 
 Soil moisture is influenced by several interacting processes. Rainfall and irrigation add water to the soil, while evaporation, plant water use and drainage remove it. In practice, monitoring is also affected by noisy measurements, missing observations and limited sensor coverage.
@@ -188,6 +192,12 @@ The dashboard provides:
 - 90% prediction uncertainty
 - experimental operating references
 - uncertainty-aware irrigation decision support
+
+### Dashboard Overview
+
+The monitoring view brings together recent soil-moisture measurements from the six sensor ports, environmental inputs and the current state of the forecasting system.
+
+![Smart Irrigation Digital Twin dashboard overview](docs/images/dashboard_overview.png)
 
 The dashboard loads the saved forecasting model and preprocessing scalers rather than retraining the model each time it starts.
 
